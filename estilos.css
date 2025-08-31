@@ -63,6 +63,33 @@ nav ul li a:focus {
   padding: 0 1.5rem;
 }
 
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #39a0ed;
+  box-shadow: 0 4px 16px rgba(57, 160, 237, 0.08);
+  background: #fff;
+}
+
 section h2 {
   font-weight: 700;
   font-size: 2rem;
@@ -171,5 +198,16 @@ footer {
 
   section h2 {
     font-size: 1.7rem;
+  }
+  .about-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .about-img-container {
+    margin-bottom: 1.2rem;
+  }
+  .profile-img {
+    width: 120px;
+    height: 120px;
   }
 }
